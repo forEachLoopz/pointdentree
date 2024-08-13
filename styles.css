@@ -1,0 +1,80 @@
+/* Styles généraux */
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #1c1c1c;
+    border-bottom: 2px solid #e0e0e0;
+}
+
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+    color: #ff2d2d;
+}
+
+.warning {
+    font-size: 1.2em;
+    color: #ff0000;
+    margin-top: 10px;
+}
+
+main {
+    padding: 20px;
+    flex: 1; /* Permet au main de prendre tout l'espace disponible */
+}
+
+a {
+    color: inherit; /* Hérite de la couleur du texte environnant */
+    text-decoration: underline; /* Garde le soulignement */
+}
+
+a:hover {
+    color: #ff2d2d; /* Optionnel : une couleur spécifique au survol */
+    text-decoration: underline;
+}
+
+.fugitive {
+    background-color: #1c1c1c;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(255, 45, 45, 0.5);
+}
+
+.fugitive h2 {
+    font-size: 1.8em;
+    color: #ff2d2d;
+    margin: 0;
+}
+
+.fugitive p {
+    font-size: 1.2em;
+    margin: 5px 0;
+}
+
+.danger-level {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #1c1c1c;
+    border-top: 2px solid #e0e0e0;
+    font-size: 0.9em;
+    color: #888;
+    margin-top: auto; /* Pousse le footer vers le bas */
+}
